@@ -9,7 +9,7 @@ networks:
       name: "prometheus"
 
 services:
-  redis-exported:
+  redis-exporter:
     image: "oliver006/redis_exporter"
     container_name: "redis_exporter_1"
     ports:
